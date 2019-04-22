@@ -11,19 +11,16 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      base: '/travel/',
       component: Home
     },
     {
       path: '/city',
       name: 'City',
-      base: '/travel/',
       component: City
     },
     {
       path: '/detail/:id',
       name: 'Detail',
-      base: '/travel/',
       component: Detail
     }
   ],
